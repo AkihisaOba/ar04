@@ -1,0 +1,166 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2353,
+            "type": "VEC3",
+            "max": [
+                0.11030025035142899,
+                0.325851708650589,
+                0.3956415057182312
+            ],
+            "min": [
+                -0.11030025035142899,
+                -0.1238909587264061,
+                0.000011614211871346925
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2353,
+            "type": "VEC3",
+            "max": [
+                0.9999518394470215,
+                0.9999992847442627,
+                0.9999171495437622
+            ],
+            "min": [
+                -0.9999518394470215,
+                -0.999932050704956,
+                -0.999909520149231
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 14106,
+            "type": "SCALAR",
+            "max": [
+                2352
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 112896,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 28236,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 28236,
+            "byteLength": 28236,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 56472,
+            "byteLength": 56424,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "niwatori.fbm\\niwatori.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cube",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "niwatori",
+            "matrix": [
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.000016292067812173629,
+                -100.0,
+                0.0,
+                0.0,
+                100.0,
+                -0.000016292067812173629,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
